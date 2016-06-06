@@ -5,11 +5,11 @@
 [![standard][standard-image]][standard-url]
 [![coverage][coveralls-image]][coveralls-url]
 
-[npm-image]: https://img.shields.io/npm/v/is-animated.svg?style=flat-square
+[npm-image]: https://img.shields.io/npm/v/is-animated.svg
 [npm-url]: https://www.npmjs.com/package/is-animated
-[travis-image]: https://img.shields.io/travis/qzb/is-animated.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/qzb/is-animated.svg
 [travis-url]: https://travis-ci.org/qzb/is-animated
-[standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
+[standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
 [standard-url]: http://npm.im/standard
 [coveralls-image]: https://img.shields.io/coveralls/qzb/is-animated/master.svg
 [coveralls-url]: https://coveralls.io/r/qzb/is-animated?branch=master
