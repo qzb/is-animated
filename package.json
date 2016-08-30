@@ -1,7 +1,7 @@
 {
   "name": "is-animated",
   "description": "Detects animated GIF and APNG images",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Józef Sokołowski <j.k.sokolowski@gmail.com>",
   "bugs": {
     "url": "https://github.com/qzb/is-animated/issues"
@@ -15,9 +15,13 @@
   "homepage": "https://github.com/qzb/is-animated",
   "keywords": [
     "animated",
+    "animated gif",
+    "animated png",
+    "animated image",
     "animation",
     "gif",
-    "image"
+    "png",
+    "apng"
   ],
   "license": "MIT",
   "main": "lib/index.js",
