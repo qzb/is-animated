@@ -1,0 +1,32 @@
+{
+  "name": "is-animated",
+  "description": "Checks if GIF image is animated",
+  "version": "1.0.0",
+  "author": "Józef Sokołowski <j.k.sokolowski@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/qzb/is-animated/issues"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.3",
+    "standard": "*",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0"
+  },
+  "homepage": "https://github.com/qzb/is-animated",
+  "keywords": [
+    "animated",
+    "animation",
+    "gif",
+    "image"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qzb/is-animated.git"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js | tap-spec",
+    "test-ci": "standard && istanbul cover --report lcovonly -- tape test/*.js | tap-spec"
+  }
+}
