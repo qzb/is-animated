@@ -1,11 +1,12 @@
 language: node_js
 node_js:
   - 'stable'
-  - '0.12'
-  - '0.10'
+  - '8.0'
 sudo: false
 cache:
   directories:
     - node_modules
-script: "npm run-script test-ci"
+script:
+  - commitlint-travis
+  - npm run test-ci
 after_script: "npm install coveralls@2.x.x && cat ./coverage/lcov.info | coveralls"
