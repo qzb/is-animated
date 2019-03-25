@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/qzb/is-animated/compare/v1.1.1...v2.0.0) (2019-03-25)
+
+
+### Bug Fixes
+
+* update dependencies ([ba173ee](https://github.com/qzb/is-animated/commit/ba173ee))
+
+
+### Chores
+
+* use convetional-commits for commit messages ([24e86b9](https://github.com/qzb/is-animated/commit/24e86b9))
+
+
+### Features
+
+* add support for WebP ([e99f1c4](https://github.com/qzb/is-animated/commit/e99f1c4))
+
+
+### BREAKING CHANGES
+
+* drop support for following Node.js versions: 0.10.x, 0.12.x, 4.x.x, 6.x.x
+
+
+
 <a name="1.1.1"></a>
 # [1.1.1](https://github.com/qzb/is-animated/compare/v1.1.0...v1.1.1) (2019-08-30)
 
