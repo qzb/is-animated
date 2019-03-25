@@ -29,6 +29,7 @@
     "commit": "git-cz",
     "commit:retry": "git-cz --retry",
     "commitmsg": "commitlint -e",
+    "release": "standard-version",
     "test": "standard && tape test/*.js | tap-spec",
     "test-ci": "standard && istanbul cover --report lcovonly -- tape test/*.js | tap-spec"
   },
@@ -51,6 +52,7 @@
     "husky": "^1.3.1",
     "istanbul": "^0.4.3",
     "standard": "*",
+    "standard-version": "^5.0.2",
     "tap-spec": "^4.0.2",
     "tape": "^4.0.0"
   },

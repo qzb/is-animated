@@ -2,10 +2,11 @@
 
 [![npm][npm-image]][npm-url]
 [![travis][travis-image]][travis-url]
-[![standard][standard-image]][standard-url]
 [![coverage][coveralls-image]][coveralls-url]
+[![standard][standard-image]][standard-url]
+[![standard version][standard-version-image]][standard-version-url]
 
-**is-animated** is a simple library for detecting animated images, it supports not only GIFs, but also APNG images.
+**is-animated** is a simple library for detecting animated images, it supports not only GIFs, but also APNG and WebP images.
 
 ## Install
 
@@ -39,6 +40,8 @@ fs.readFile(filename, (err, buffer) => {
 [travis-url]: https://travis-ci.org/qzb/is-animated
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
 [standard-url]: http://npm.im/standard
+[standard-version-image]: https://img.shields.io/badge/release-standard%20version-brightgreen.svg
+[standard-version-url]: https://github.com/conventional-changelog/standard-version
 [coveralls-image]: https://img.shields.io/coveralls/qzb/is-animated/master.svg
 [coveralls-url]: https://coveralls.io/r/qzb/is-animated?branch=master
 
