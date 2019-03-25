@@ -53,7 +53,7 @@
     "istanbul": "^0.4.3",
     "standard": "*",
     "standard-version": "^5.0.2",
-    "tap-spec": "^4.0.2",
+    "tap-spec": "^5.0.0",
     "tape": "^4.0.0"
   },
   "commitlint": {
