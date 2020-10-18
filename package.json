@@ -25,6 +25,7 @@
   "license": "MIT",
   "author": "Józef Sokołowski <j.k.sokolowski@gmail.com>",
   "main": "lib/index.js",
+  "files": ["lib"],
   "scripts": {
     "commit": "git-cz",
     "commit:retry": "git-cz --retry",
