@@ -5,7 +5,7 @@ var path = require('path')
 var test = require('tape')
 var isAnimated = require('../lib')
 
-var types = [ 'gif', 'png', 'webp' ]
+var types = ['gif', 'png', 'webp']
 
 types.forEach(function (type) {
   test('Test animated ' + type.toUpperCase() + ' images', function (t) {
