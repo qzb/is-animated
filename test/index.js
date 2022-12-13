@@ -1,48 +1,48 @@
 'use strict'
 
-var fs = require('fs')
-var path = require('path')
-var test = require('tape')
-var isAnimated = require('../lib')
+import { readdirSync, readFileSync } from 'fs'
+import { extname } from 'path'
+import test from 'tape'
+import isAnimated from '../lib/index.js'
 
 var types = ['gif', 'png', 'webp']
 
 types.forEach(function (type) {
   test('Test animated ' + type.toUpperCase() + ' images', function (t) {
-    var images = fs.readdirSync('./test/animated').filter(function (name) {
-      return path.extname(name).slice(1) === type
+    var images = readdirSync('./test/animated').filter(function (name) {
+      return extname(name).slice(1) === type
     })
 
     t.plan(images.length)
 
     images.forEach(function (imgName) {
-      var buffer = fs.readFileSync('./test/animated/' + imgName)
+      var buffer = readFileSync('./test/animated/' + imgName)
       t.true(isAnimated(buffer), imgName)
     })
   })
 
   test('Test static ' + type.toUpperCase() + ' images', function (t) {
-    var images = fs.readdirSync('./test/static').filter(function (name) {
-      return path.extname(name).slice(1) === type
+    var images = readdirSync('./test/static').filter(function (name) {
+      return extname(name).slice(1) === type
     })
 
     t.plan(images.length)
 
     images.forEach(function (imgName) {
-      var buffer = fs.readFileSync('./test/static/' + imgName)
+      var buffer = readFileSync('./test/static/' + imgName)
       t.false(isAnimated(buffer), imgName)
     })
   })
 
   test('Test invalid ' + type.toUpperCase() + ' images', function (t) {
-    var images = fs.readdirSync('./test/invalid').filter(function (name) {
-      return path.extname(name).slice(1) === type
+    var images = readdirSync('./test/invalid').filter(function (name) {
+      return extname(name).slice(1) === type
     })
 
     t.plan(images.length)
 
     images.forEach(function (imgName) {
-      var buffer = fs.readFileSync('./test/invalid/' + imgName)
+      var buffer = readFileSync('./test/invalid/' + imgName)
       t.false(isAnimated(buffer), imgName)
     })
   })
