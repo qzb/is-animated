@@ -1,5 +1,3 @@
-'use strict'
-
 import { readdirSync, readFileSync } from 'fs'
 import { extname } from 'path'
 import test from 'tape'
