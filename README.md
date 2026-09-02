@@ -6,12 +6,22 @@
 [![standard][standard-image]][standard-url]
 [![standard version][standard-version-image]][standard-version-url]
 
-> DEPRECATION NOTICE
+<br />
+
+## **DEPRECATION NOTICE**
 >
-> This GitHub repository does not contain active source code for `is-animated` NPM library. Since 01.09.2026 the package is being maintained in new repository: [`FRSOURCE/is-animated`](https://github.com/FRSOURCE/is-animated).
+> This GitHub repository no longer contains the active source code for the `is-animated` NPM package.
 >
-> All the new pull requests, issues and other information should be posted there.
-> Thanks for understanding!
+> As of September 1, 2026, the package is maintained in the new repository: [`FRSOURCE/is-animated`](https://github.com/FRSOURCE/is-animated).
+>
+> Please submit all new pull requests, issues, discussions and other project-related information to the new repository.
+>
+> For more information about the transition, please see this issue: https://github.com/qzb/is-animated/issues/26 
+>
+> Thank you for your understanding!
+
+<br />
+<br />
 
 **is-animated** is a simple library for detecting animated images, it supports not only GIFs, but also APNG and WebP images.
 
